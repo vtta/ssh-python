@@ -11,3 +11,4 @@ libssh/compile_commands.json
 /.idea
 /tests/unit_test_cert_key-cert.pub
 /doc/_build
+.pdm-python

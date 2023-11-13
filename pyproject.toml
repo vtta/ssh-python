@@ -1,0 +1,41 @@
+[project]
+name = "ssh-python"
+version = "1.0.1"
+description = "libssh C library bindings for Python."
+authors = [
+    {name = "Panos Kittenis", email = "22e889d8@opayq.com"},
+]
+dependencies = [
+    "setuptools>=68.2.2",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+license = {text = "LGPLv2.1"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: OS Independent",
+    "Operating System :: POSIX",
+    "Operating System :: POSIX :: BSD",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: C",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Networking",
+    "Topic :: System :: Shells",
+]
+
+[project.urls]
+Homepage = "https://github.com/ParallelSSH/ssh-python"
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
